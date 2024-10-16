@@ -81,7 +81,7 @@ const AccessibleFormWithFieldErrorAudio = () => {
                 onChange={handleChange}
                 onBlur={(e) => {
                   handleBlur(e);
-                  setFocusedField(''); // Reset focus when the field loses focus
+                  setFocusedField('');
                 }}
                 onFocus={() => setFocusedField('password')}
               />
